@@ -30,22 +30,30 @@ This app allows:
 ---
 
 ## 🏗 Project Structure
-project/
+```text
+📦 RestaurantOrderingSystem
 │
-├── main.py # FastAPI backend
-├── dishes.json # Dish preparation time
-├── orders.json # Stores all orders
-├── requirements.txt
+├── main.py                # FastAPI backend
+├── dishes.json           # Dish preparation time
+├── orders.json           # Stores all orders
+├── requirements.txt      # Dependencies
 │
-└── restaurant-ui/
-├── index.html # Main UI
-├── styles.css # Styling
-├── app.js # Routing logic
-├── menu.js # Menu rendering
-├── cart.js # Cart logic
-├── order.js # Order handling
-└── images/ # Food images
-
+├── restaurant-ui/
+│   ├── index.html        # Main UI
+│   ├── styles.css        # Styling
+│   ├── app.js            # Routing logic
+│   ├── menu.js           # Menu rendering
+│   ├── cart.js           # Cart logic
+│   ├── order.js          # Order handling
+│   │
+│   └── images/           # Food images
+│       ├── burger.jpg
+│       ├── pasta.jpg
+│       ├── pizza.jpg
+│       ├── rice_bowl.jpg
+│       └── wrap.jpg
+│
+└── README.md
 
 
 ---
