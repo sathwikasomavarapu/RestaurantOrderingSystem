@@ -1,0 +1,15 @@
+& "$env:LocalAppData\Programs\Python\Python313\python.exe" -m venv .venv
+
+.\.venv\Scripts\Activate.ps1
+
+1. empty the orders.json when initially running the code ✅ 
+2. basic ui ✅ 
+3. add quantity while placing orders - customers side
+4. add "view_orders" ✅ 
+5. after the order status has updated to completed - "order is ready" 
+6. view menu
+7. view pending orders
+8. view completed orders
+9. cart option
+10. show price, and can add quantity at menu
+11. add chefs at estimated time for placed order
